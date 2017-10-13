@@ -1,0 +1,804 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+   <category>
+      <pattern>打印机 故障</pattern>
+      <template>首先看下打印机是否脱机状态使用，取消脱机状态，取消列表里未打文档；如果不行，重新开关打印机；再不可以，电脑内外重启</template>
+   </category>
+   <category>
+      <pattern>* 打印机 故障</pattern>
+      <template>首先看下打印机是否脱机状态使用，取消脱机状态，取消列表里未打文档；如果不行，重新开关打印机；再不可以，电脑内外重启</template>
+   </category>
+   <category>
+      <pattern>打印机 * 故障</pattern>
+      <template>首先看下打印机是否脱机状态使用，取消脱机状态，取消列表里未打文档；如果不行，重新开关打印机；再不可以，电脑内外重启</template>
+   </category>
+   <category>
+      <pattern>* 打印机 * 故障</pattern>
+      <template>首先看下打印机是否脱机状态使用，取消脱机状态，取消列表里未打文档；如果不行，重新开关打印机；再不可以，电脑内外重启</template>
+   </category>
+   <category>
+      <pattern>* 打印机 故障 *</pattern>
+      <template>首先看下打印机是否脱机状态使用，取消脱机状态，取消列表里未打文档；如果不行，重新开关打印机；再不可以，电脑内外重启</template>
+   </category>
+   <category>
+      <pattern>打印机 故障 *</pattern>
+      <template>首先看下打印机是否脱机状态使用，取消脱机状态，取消列表里未打文档；如果不行，重新开关打印机；再不可以，电脑内外重启</template>
+   </category>
+   <category>
+      <pattern>打印机 * 故障 *</pattern>
+      <template>首先看下打印机是否脱机状态使用，取消脱机状态，取消列表里未打文档；如果不行，重新开关打印机；再不可以，电脑内外重启</template>
+   </category>
+   <category>
+      <pattern>* 打印机 * 故障 *</pattern>
+      <template>首先看下打印机是否脱机状态使用，取消脱机状态，取消列表里未打文档；如果不行，重新开关打印机；再不可以，电脑内外重启</template>
+   </category>
+
+
+
+
+
+
+   <category>
+      <pattern>虚拟机 未分 分配</pattern>
+      <template>好的，了解。首先您先试试在控制台上重启虚拟机；
+      如果重启不可以的话看下网络适配器是否添加，如果没有的话就添加一个适配器试试</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 未分 分配</pattern>
+      <template>好的，了解。首先您先试试在控制台上重启虚拟机；
+      如果重启不可以的话看下网络适配器是否添加，如果没有的话就添加一个适配器试试</template>
+   </category>
+   <category>
+      <pattern>虚拟机 * 未分 分配</pattern>
+      <template>好的，了解。首先您先试试在控制台上重启虚拟机；
+      如果重启不可以的话看下网络适配器是否添加，如果没有的话就添加一个适配器试试</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 * 未分 分配</pattern>
+      <template>好的，了解。首先您先试试在控制台上重启虚拟机；
+      如果重启不可以的话看下网络适配器是否添加，如果没有的话就添加一个适配器试试</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 未分 分配 *</pattern>
+      <template>好的，了解。首先您先试试在控制台上重启虚拟机；
+      如果重启不可以的话看下网络适配器是否添加，如果没有的话就添加一个适配器试试</template>
+   </category>
+   <category>
+      <pattern>虚拟机 未分 分配 *</pattern>
+      <template>好的，了解。首先您先试试在控制台上重启虚拟机；
+      如果重启不可以的话看下网络适配器是否添加，如果没有的话就添加一个适配器试试</template>
+   </category>
+   <category>
+      <pattern>虚拟机 * 未分 分配 *</pattern>
+      <template>好的，了解。首先您先试试在控制台上重启虚拟机；
+      如果重启不可以的话看下网络适配器是否添加，如果没有的话就添加一个适配器试试</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 * 未分 分配 *</pattern>
+      <template>好的，了解。首先您先试试在控制台上重启虚拟机；
+      如果重启不可以的话看下网络适配器是否添加，如果没有的话就添加一个适配器试试</template>
+   </category>
+
+
+
+   <category>
+      <pattern>虚拟机 死机</pattern>
+      <template>您可以尝试在控制台上重启虚拟机。</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 死机</pattern>
+      <template>您可以尝试在控制台上重启虚拟机。</template>
+   </category>
+   <category>
+      <pattern>虚拟机 * 死机</pattern>
+      <template>您可以尝试在控制台上重启虚拟机。</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 * 死机</pattern>
+      <template>您可以尝试在控制台上重启虚拟机。</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 死机 *</pattern>
+      <template>您可以尝试在控制台上重启虚拟机。</template>
+   </category>
+   <category>
+      <pattern>虚拟机 死机 *</pattern>
+      <template>您可以尝试在控制台上重启虚拟机。</template>
+   </category>
+   <category>
+      <pattern>虚拟机 * 死机 *</pattern>
+      <template>您可以尝试在控制台上重启虚拟机。</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 * 死机 *</pattern>
+      <template>您可以尝试在控制台上重启虚拟机。</template>
+   </category>
+
+
+   <category>
+      <pattern>接口 设备 故障</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>* 接口 设备 故障</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>接口 设备 * 故障</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>* 接口 设备 * 故障</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>* 接口 设备 故障 *</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>接口 设备 故障 *</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>接口 设备 * 故障 *</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>* 接口 设备 * 故障 *</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+
+
+   <category>
+      <pattern>读卡 不成 成功</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>* 读卡 不成 成功</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>读卡 * 不成 成功</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>* 读卡 * 不成 成功</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>* 读卡 不成 成功 *</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>读卡 不成 成功 *</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>读卡 * 不成 成功 *</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+   <category>
+      <pattern>* 读卡 * 不成 成功 *</pattern>
+      <template>请将虚拟机，物理机都重启一下试试</template>
+   </category>
+
+
+   <category>
+      <pattern>医保 代码 为 空</pattern>
+      <template>在住院收费里进行费用重算，处方中没有医保代码的地方，进行两次费用重算操作</template>
+   </category>
+   <category>
+      <pattern>* 医保 代码 为 空</pattern>
+      <template>在住院收费里进行费用重算，处方中没有医保代码的地方，进行两次费用重算操作</template>
+   </category>
+   <category>
+      <pattern>医保 代码 为 空 *</pattern>
+      <template>在住院收费里进行费用重算，处方中没有医保代码的地方，进行两次费用重算操作</template>
+   </category>
+   <category>
+      <pattern>* 医保 代码 为 空 *</pattern>
+      <template>在住院收费里进行费用重算，处方中没有医保代码的地方，进行两次费用重算操作</template>
+   </category>
+
+   <category>
+      <pattern>对应 项目 未 匹配</pattern>
+      <template>先看下进行费用重算的病人的医保代码是否为空，如果存在的话，不用进行重算</template>
+   </category>
+   <category>
+      <pattern>* 对应 项目 未 匹配</pattern>
+      <template>先看下进行费用重算的病人的医保代码是否为空，如果存在的话，不用进行重算</template>
+   </category>
+   <category>
+      <pattern>对应 项目 未 匹配 *</pattern>
+      <template>先看下进行费用重算的病人的医保代码是否为空，如果存在的话，不用进行重算</template>
+   </category>
+   <category>
+      <pattern>* 对应 项目 未 匹配 *</pattern>
+      <template>先看下进行费用重算的病人的医保代码是否为空，如果存在的话，不用进行重算</template>
+   </category>
+
+   <category>
+      <pattern>取消 消息</pattern>
+      <template>系统退出重进</template>
+   </category>
+   <category>
+      <pattern>* 取消 消息</pattern>
+      <template>系统退出重进</template>
+   </category>
+   <category>
+      <pattern>取消 消息 *</pattern>
+      <template>系统退出重进</template>
+   </category>
+   <category>
+      <pattern>* 取消 消息 *</pattern>
+      <template>系统退出重进</template>
+   </category>
+
+
+   <category>
+      <pattern>预 结算 500</pattern>
+      <template>让收费处找市医保中心处理</template>
+   </category>
+   <category>
+      <pattern>* 预 结算 500</pattern>
+      <template>让收费处找市医保中心处理</template>
+   </category>
+   <category>
+      <pattern>预 结算 * 500</pattern>
+      <template>让收费处找市医保中心处理</template>
+   </category>
+   <category>
+      <pattern>* 预 结算 * 500</pattern>
+      <template>让收费处找市医保中心处理</template>
+   </category>
+   <category>
+      <pattern>* 预 结算 500 *</pattern>
+      <template>让收费处找市医保中心处理</template>
+   </category>
+   <category>
+      <pattern>预 结算 500 *</pattern>
+      <template>让收费处找市医保中心处理</template>
+   </category>
+   <category>
+      <pattern>预 结算 * 500 *</pattern>
+      <template>让收费处找市医保中心处理</template>
+   </category>
+   <category>
+      <pattern>* 预 结算 * 500 *</pattern>
+      <template>让收费处找市医保中心处理</template>
+   </category>
+
+   <category>
+      <pattern>预 结算 -400</pattern>
+      <template>让医生换一个诊断，或者联系医保中心处理</template>
+   </category>
+   <category>
+      <pattern>* 预 结算 -400</pattern>
+      <template>让医生换一个诊断，或者联系医保中心处理</template>
+   </category>
+   <category>
+      <pattern>预 结算 * -400</pattern>
+      <template>让医生换一个诊断，或者联系医保中心处理</template>
+   </category>
+   <category>
+      <pattern>* 预 结算 * -400</pattern>
+      <template>让医生换一个诊断，或者联系医保中心处理</template>
+   </category>
+   <category>
+      <pattern>* 预 结算 -400 *</pattern>
+      <template>让医生换一个诊断，或者联系医保中心处理</template>
+   </category>
+   <category>
+      <pattern>预 结算 -400 *</pattern>
+      <template>让医生换一个诊断，或者联系医保中心处理</template>
+   </category>
+   <category>
+      <pattern>预 结算 * -400 *</pattern>
+      <template>让医生换一个诊断，或者联系医保中心处理</template>
+   </category>
+   <category>
+      <pattern>* 预 结算 * -400 *</pattern>
+      <template>让医生换一个诊断，或者联系医保中心处理</template>
+   </category>
+
+   <category>
+      <pattern>发预出院时显示有未发放药品，从而预出院发不了</pattern>
+      <template>一般让护士站那边打电话给药房，让药房发药，如果药房已经发了，没什么问题，就把相应的未发药的记录删掉去发预出院</template>
+   </category>
+
+   <category>
+      <pattern>就诊 卡号 存在</pattern>
+      <template>您可以先到建档里面手动输卡号或者身份证号，把信息取回来，再重新读一次卡</template>
+   </category>
+   <category>
+      <pattern>* 就诊 卡号 存在</pattern>
+      <template>您可以先到建档里面手动输卡号或者身份证号，把信息取回来，再重新读一次卡</template>
+   </category>
+   <category>
+      <pattern>就诊 卡号 * 存在</pattern>
+      <template>您可以先到建档里面手动输卡号或者身份证号，把信息取回来，再重新读一次卡</template>
+   </category>
+   <category>
+      <pattern>* 就诊 卡号 * 存在</pattern>
+      <template>您可以先到建档里面手动输卡号或者身份证号，把信息取回来，再重新读一次卡</template>
+   </category>
+   <category>
+      <pattern>* 就诊 卡号 存在 *</pattern>
+      <template>您可以先到建档里面手动输卡号或者身份证号，把信息取回来，再重新读一次卡</template>
+   </category>
+   <category>
+      <pattern>就诊 卡号 存在 *</pattern>
+      <template>您可以先到建档里面手动输卡号或者身份证号，把信息取回来，再重新读一次卡</template>
+   </category>
+   <category>
+      <pattern>就诊 卡号 * 存在 *</pattern>
+      <template>您可以先到建档里面手动输卡号或者身份证号，把信息取回来，再重新读一次卡</template>
+   </category>
+   <category>
+      <pattern>* 就诊 卡号 * 存在 *</pattern>
+      <template>您可以先到建档里面手动输卡号或者身份证号，把信息取回来，再重新读一次卡</template>
+   </category>
+
+
+   <category>
+      <pattern>病程 记录 修改</pattern>
+      <template>您可以在超级工具里解下锁，解除文档保护，密码分别为mediinfo,abc1</template>
+   </category>
+   <category>
+      <pattern>* 病程 记录 修改</pattern>
+      <template>您可以在超级工具里解下锁，解除文档保护，密码分别为mediinfo,abc1</template>
+   </category>
+   <category>
+      <pattern>病程 记录 * 修改</pattern>
+      <template>您可以在超级工具里解下锁，解除文档保护，密码分别为mediinfo,abc1</template>
+   </category>
+   <category>
+      <pattern>* 病程 记录 * 修改</pattern>
+      <template>您可以在超级工具里解下锁，解除文档保护，密码分别为mediinfo,abc1</template>
+   </category>
+   <category>
+      <pattern>* 病程 记录 修改 *</pattern>
+      <template>您可以在超级工具里解下锁，解除文档保护，密码分别为mediinfo,abc1</template>
+   </category>
+   <category>
+      <pattern>病程 记录 修改 *</pattern>
+      <template>您可以在超级工具里解下锁，解除文档保护，密码分别为mediinfo,abc1</template>
+   </category>
+   <category>
+      <pattern>病程 记录 * 修改 *</pattern>
+      <template>您可以在超级工具里解下锁，解除文档保护，密码分别为mediinfo,abc1</template>
+   </category>
+   <category>
+      <pattern>* 病程 记录 * 修改 *</pattern>
+      <template>您可以在超级工具里解下锁，解除文档保护，密码分别为mediinfo,abc1</template>
+   </category>
+
+
+   <category>
+      <pattern>核磁共振 频次</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>* 核磁共振 频次</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>核磁共振 * 频次</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>* 核磁共振 * 频次</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>* 核磁共振 频次 *</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>核磁共振 频次 *</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>核磁共振 * 频次 *</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>* 核磁共振 * 频次 *</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+
+
+   <category>
+      <pattern>子宫 输卵 输卵管 卵管 通 液 术 频次</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>* 子宫 输卵 输卵管 卵管 通 液 术 频次</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>子宫 输卵 输卵管 卵管 通 液 术 * 频次</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>* 子宫 输卵 输卵管 卵管 通 液 术 * 频次</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>* 子宫 输卵 输卵管 卵管 通 液 术 频次 *</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>子宫 输卵 输卵管 卵管 通 液 术 频次 *</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>子宫 输卵 输卵管 卵管 通 液 术 * 频次 *</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+   <category>
+      <pattern>* 子宫 输卵 输卵管 卵管 通 液 术 * 频次 *</pattern>
+      <template>您可以将histools里的医保开关关闭一下，报错的程序重新进入一下，医生操作完立即将开关打开，因为这个涉及全院的系统。</template>
+   </category>
+
+
+   <category>
+      <pattern>请 启动 视频 设备</pattern>
+      <template>反映给工程师去处理一下高拍仪的问题</template>
+   </category>
+   <category>
+      <pattern>* 请 启动 视频 设备</pattern>
+      <template>反映给工程师去处理一下高拍仪的问题</template>
+   </category>
+   <category>
+      <pattern>请 启动 视频 设备 *</pattern>
+      <template>反映给工程师去处理一下高拍仪的问题</template>
+   </category>
+   <category>
+      <pattern>* 请 启动 视频 设备 *</pattern>
+      <template>反映给工程师去处理一下高拍仪的问题</template>
+   </category>
+
+
+   <category>
+      <pattern>未 连接 接到 ORACLE</pattern>
+      <template>远程切过去重新装个ORACLE</template>
+   </category>
+   <category>
+      <pattern>* 未 连接 接到 ORACLE</pattern>
+      <template>远程切过去重新装个ORACLE</template>
+   </category>
+   <category>
+      <pattern>未 连接 接到 ORACLE *</pattern>
+      <template>远程切过去重新装个ORACLE</template>
+   </category>
+   <category>
+      <pattern>* 未 连接 接到 ORACLE *</pattern>
+      <template>远程切过去重新装个ORACLE</template>
+   </category>
+
+
+
+   <category>
+      <pattern>核磁共振 保存</pattern>
+      <template>将这个核磁共振的整个项目删掉，重新开单，医生要开的处方另建一个新的西成药，不要在自动生成的处方里添加</template>
+   </category>
+   <category>
+      <pattern>* 核磁共振 保存</pattern>
+      <template>将这个核磁共振的整个项目删掉，重新开单，医生要开的处方另建一个新的西成药，不要在自动生成的处方里添加</template>
+   </category>
+   <category>
+      <pattern>核磁共振 * 保存</pattern>
+      <template>将这个核磁共振的整个项目删掉，重新开单，医生要开的处方另建一个新的西成药，不要在自动生成的处方里添加</template>
+   </category>
+   <category>
+      <pattern>* 核磁共振 * 保存</pattern>
+      <template>将这个核磁共振的整个项目删掉，重新开单，医生要开的处方另建一个新的西成药，不要在自动生成的处方里添加</template>
+   </category>
+   <category>
+      <pattern>* 核磁共振 保存 *</pattern>
+      <template>将这个核磁共振的整个项目删掉，重新开单，医生要开的处方另建一个新的西成药，不要在自动生成的处方里添加</template>
+   </category>
+   <category>
+      <pattern>核磁共振 保存 *</pattern>
+      <template>将这个核磁共振的整个项目删掉，重新开单，医生要开的处方另建一个新的西成药，不要在自动生成的处方里添加</template>
+   </category>
+   <category>
+      <pattern>核磁共振 * 保存 *</pattern>
+      <template>将这个核磁共振的整个项目删掉，重新开单，医生要开的处方另建一个新的西成药，不要在自动生成的处方里添加</template>
+   </category>
+   <category>
+      <pattern>* 核磁共振 * 保存 *</pattern>
+      <template>将这个核磁共振的整个项目删掉，重新开单，医生要开的处方另建一个新的西成药，不要在自动生成的处方里添加</template>
+   </category>
+
+
+   <category>
+      <pattern>虚拟机 装</pattern>
+      <template>先将要装的软件装在自己电脑桌面上，通过RADMIN VIEWER,发送至远程电脑的desktop文件夹里，再将虚拟机注销一下</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 装</pattern>
+      <template>先将要装的软件装在自己电脑桌面上，通过RADMIN VIEWER,发送至远程电脑的desktop文件夹里，再将虚拟机注销一下</template>
+   </category>
+   <category>
+      <pattern>虚拟机 * 装</pattern>
+      <template>先将要装的软件装在自己电脑桌面上，通过RADMIN VIEWER,发送至远程电脑的desktop文件夹里，再将虚拟机注销一下</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 * 装</pattern>
+      <template>先将要装的软件装在自己电脑桌面上，通过RADMIN VIEWER,发送至远程电脑的desktop文件夹里，再将虚拟机注销一下</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 装 *</pattern>
+      <template>先将要装的软件装在自己电脑桌面上，通过RADMIN VIEWER,发送至远程电脑的desktop文件夹里，再将虚拟机注销一下</template>
+   </category>
+   <category>
+      <pattern>虚拟机 装 *</pattern>
+      <template>先将要装的软件装在自己电脑桌面上，通过RADMIN VIEWER,发送至远程电脑的desktop文件夹里，再将虚拟机注销一下</template>
+   </category>
+   <category>
+      <pattern>结算 * 装 *</pattern>
+      <template>先将要装的软件装在自己电脑桌面上，通过RADMIN VIEWER,发送至远程电脑的desktop文件夹里，再将虚拟机注销一下</template>
+   </category>
+   <category>
+      <pattern>* 虚拟机 * 装 *</pattern>
+      <template>先将要装的软件装在自己电脑桌面上，通过RADMIN VIEWER,发送至远程电脑的desktop文件夹里，再将虚拟机注销一下</template>
+   </category>
+
+   <category>
+      <pattern>病历 保存</pattern>
+      <template>找到相应字符过多录入的文本框，让医生删除掉一些字符再保存</template>
+   </category>
+   <category>
+      <pattern>* 病历 保存</pattern>
+      <template>找到相应字符过多录入的文本框，让医生删除掉一些字符再保存</template>
+   </category>
+   <category>
+      <pattern>病历 * 保存</pattern>
+      <template>找到相应字符过多录入的文本框，让医生删除掉一些字符再保存</template>
+   </category>
+   <category>
+      <pattern>* 病历 * 保存</pattern>
+      <template>找到相应字符过多录入的文本框，让医生删除掉一些字符再保存</template>
+   </category>
+   <category>
+      <pattern>* 病历 保存 *</pattern>
+      <template>找到相应字符过多录入的文本框，让医生删除掉一些字符再保存</template>
+   </category>
+   <category>
+      <pattern>病历 保存 *</pattern>
+      <template>找到相应字符过多录入的文本框，让医生删除掉一些字符再保存</template>
+   </category>
+   <category>
+      <pattern>病历 * 保存 *</pattern>
+      <template>找到相应字符过多录入的文本框，让医生删除掉一些字符再保存</template>
+   </category>
+   <category>
+      <pattern>* 病历 * 保存 *</pattern>
+      <template>找到相应字符过多录入的文本框，让医生删除掉一些字符再保存</template>
+   </category>
+
+
+   <category>
+      <pattern>病人 锁定</pattern>
+      <template>让医生或者护士打电话给相应的锁定的人退出当前的病人，若没有人在操作，选中当前的病人，基础设置里手工交易解锁</template>
+   </category>
+   <category>
+      <pattern>* 病人 锁定</pattern>
+      <template>让医生或者护士打电话给相应的锁定的人退出当前的病人，若没有人在操作，选中当前的病人，基础设置里手工交易解锁</template>
+   </category>
+   <category>
+      <pattern>病人 * 锁定</pattern>
+      <template>让医生或者护士打电话给相应的锁定的人退出当前的病人，若没有人在操作，选中当前的病人，基础设置里手工交易解锁</template>
+   </category>
+   <category>
+      <pattern>* 病人 * 锁定</pattern>
+      <template>让医生或者护士打电话给相应的锁定的人退出当前的病人，若没有人在操作，选中当前的病人，基础设置里手工交易解锁</template>
+   </category>
+   <category>
+      <pattern>* 病人 锁定 *</pattern>
+      <template>让医生或者护士打电话给相应的锁定的人退出当前的病人，若没有人在操作，选中当前的病人，基础设置里手工交易解锁</template>
+   </category>
+   <category>
+      <pattern>病人 锁定 *</pattern>
+      <template>让医生或者护士打电话给相应的锁定的人退出当前的病人，若没有人在操作，选中当前的病人，基础设置里手工交易解锁</template>
+   </category>
+   <category>
+      <pattern>病人 * 锁定 *</pattern>
+      <template>让医生或者护士打电话给相应的锁定的人退出当前的病人，若没有人在操作，选中当前的病人，基础设置里手工交易解锁</template>
+   </category>
+   <category>
+      <pattern>* 病人 * 锁定 *</pattern>
+      <template>让医生或者护士打电话给相应的锁定的人退出当前的病人，若没有人在操作，选中当前的病人，基础设置里手工交易解锁</template>
+   </category>
+
+
+   <category>
+      <pattern>医嘱 执行</pattern>
+      <template>看下是否是出院带药，首日次数是0，是的话改为1</template>
+   </category>
+   <category>
+      <pattern>* 医嘱 执行</pattern>
+      <template>看下是否是出院带药，首日次数是0，是的话改为1</template>
+   </category>
+   <category>
+      <pattern>医嘱 * 执行</pattern>
+      <template>看下是否是出院带药，首日次数是0，是的话改为1</template>
+   </category>
+   <category>
+      <pattern>* 医嘱 * 执行</pattern>
+      <template>看下是否是出院带药，首日次数是0，是的话改为1</template>
+   </category>
+   <category>
+      <pattern>* 医嘱 执行 *</pattern>
+      <template>看下是否是出院带药，首日次数是0，是的话改为1</template>
+   </category>
+   <category>
+      <pattern>医嘱 执行 *</pattern>
+      <template>看下是否是出院带药，首日次数是0，是的话改为1</template>
+   </category>
+   <category>
+      <pattern>医嘱 * 执行 *</pattern>
+      <template>看下是否是出院带药，首日次数是0，是的话改为1</template>
+   </category>
+   <category>
+      <pattern>* 医嘱 * 执行 *</pattern>
+      <template>看下是否是出院带药，首日次数是0，是的话改为1</template>
+   </category>
+
+
+   <category>
+      <pattern>联系 联系人 姓名 未 保存</pattern>
+      <template>名字删掉保存一下，再重新录入保存</template>
+   </category>
+   <category>
+      <pattern>* 联系 联系人 姓名 未 保存</pattern>
+      <template>名字删掉保存一下，再重新录入保存</template>
+   </category>
+   <category>
+      <pattern>联系 联系人 姓名 未 保存 *</pattern>
+      <template>名字删掉保存一下，再重新录入保存</template>
+   </category>
+   <category>
+      <pattern>* 联系 联系人 姓名 未 保存 *</pattern>
+      <template>名字删掉保存一下，再重新录入保存</template>
+   </category>
+
+
+   <category>
+      <pattern>生命 生命体 体征 导</pattern>
+      <template>物理机上打开MED软件，虚拟机上手麻刷新</template>
+   </category>
+   <category>
+      <pattern>* 生命 生命体 体征 导</pattern>
+      <template>物理机上打开MED软件，虚拟机上手麻刷新</template>
+   </category>
+   <category>
+      <pattern>生命 生命体 体征 * 导</pattern>
+      <template>物理机上打开MED软件，虚拟机上手麻刷新</template>
+   </category>
+   <category>
+      <pattern>* 生命 生命体 体征 * 导</pattern>
+      <template>物理机上打开MED软件，虚拟机上手麻刷新</template>
+   </category>
+   <category>
+      <pattern>* 生命 生命体 体征 导 *</pattern>
+      <template>物理机上打开MED软件，虚拟机上手麻刷新</template>
+   </category>
+   <category>
+      <pattern>生命 生命体 体征 导 *</pattern>
+      <template>物理机上打开MED软件，虚拟机上手麻刷新</template>
+   </category>
+   <category>
+      <pattern>生命 生命体 体征 * 导 *</pattern>
+      <template>物理机上打开MED软件，虚拟机上手麻刷新</template>
+   </category>
+   <category>
+      <pattern>* 生命 生命体 体征 * 导 *</pattern>
+      <template>物理机上打开MED软件，虚拟机上手麻刷新</template>
+   </category>
+
+
+   <category>
+      <pattern>程序 找 不到</pattern>
+      <template>首先看菜单里是否有找不到程序请点这里按钮，有的话点一下；没有的话访问ftp://129.9.1.6找到相应的程序的快捷方式保存在菜单里的相应位置</template>
+   </category>
+   <category>
+      <pattern>* 程序 找 不到</pattern>
+      <template>首先看菜单里是否有找不到程序请点这里按钮，有的话点一下；没有的话访问ftp://129.9.1.6找到相应的程序的快捷方式保存在菜单里的相应位置</template>
+   </category>
+   <category>
+      <pattern>程序 * 找 不到</pattern>
+      <template>首先看菜单里是否有找不到程序请点这里按钮，有的话点一下；没有的话访问ftp://129.9.1.6找到相应的程序的快捷方式保存在菜单里的相应位置</template>
+   </category>
+   <category>
+      <pattern>* 程序 * 找 不到</pattern>
+      <template>首先看菜单里是否有找不到程序请点这里按钮，有的话点一下；没有的话访问ftp://129.9.1.6找到相应的程序的快捷方式保存在菜单里的相应位置</template>
+   </category>
+   <category>
+      <pattern>* 程序 找 不到 *</pattern>
+      <template>首先看菜单里是否有找不到程序请点这里按钮，有的话点一下；没有的话访问ftp://129.9.1.6找到相应的程序的快捷方式保存在菜单里的相应位置</template>
+   </category>
+   <category>
+      <pattern>程序 找 不到 *</pattern>
+      <template>首先看菜单里是否有找不到程序请点这里按钮，有的话点一下；没有的话访问ftp://129.9.1.6找到相应的程序的快捷方式保存在菜单里的相应位置</template>
+   </category>
+   <category>
+      <pattern>程序 * 找 不到 *</pattern>
+      <template>首先看菜单里是否有找不到程序请点这里按钮，有的话点一下；没有的话访问ftp://129.9.1.6找到相应的程序的快捷方式保存在菜单里的相应位置</template>
+   </category>
+   <category>
+      <pattern>* 程序 * 找 不到 *</pattern>
+      <template>首先看菜单里是否有找不到程序请点这里按钮，有的话点一下；没有的话访问ftp://129.9.1.6找到相应的程序的快捷方式保存在菜单里的相应位置</template>
+   </category>
+
+
+   <category>
+      <pattern>程序 打不开</pattern>
+      <template>访问\\129.9.1.22\yhyb_log\0001\医务系统\简版系统\动态库更新（调试报错）；\\129.9.1.11\zjszyy\bf bqys mzy(接口报错)，找到相应的文件夹替代C盘里的文件夹</template>
+   </category>
+   <category>
+      <pattern>* 程序 打不开</pattern>
+      <template>访问\\129.9.1.22\yhyb_log\0001\医务系统\简版系统\动态库更新（调试报错）；\\129.9.1.11\zjszyy\bf bqys mzy(接口报错)，找到相应的文件夹替代C盘里的文件夹</template>
+   </category>
+   <category>
+      <pattern>程序 * 打不开</pattern>
+      <template>访问\\129.9.1.22\yhyb_log\0001\医务系统\简版系统\动态库更新（调试报错）；\\129.9.1.11\zjszyy\bf bqys mzy(接口报错)，找到相应的文件夹替代C盘里的文件夹</template>
+   </category>
+   <category>
+      <pattern>* 程序 * 打不开</pattern>
+      <template>访问\\129.9.1.22\yhyb_log\0001\医务系统\简版系统\动态库更新（调试报错）；\\129.9.1.11\zjszyy\bf bqys mzy(接口报错)，找到相应的文件夹替代C盘里的文件夹</template>
+   </category>
+   <category>
+      <pattern>* 程序 打不开 *</pattern>
+      <template>访问\\129.9.1.22\yhyb_log\0001\医务系统\简版系统\动态库更新（调试报错）；\\129.9.1.11\zjszyy\bf bqys mzy(接口报错)，找到相应的文件夹替代C盘里的文件夹</template>
+   </category>
+   <category>
+      <pattern>程序 打不开 *</pattern>
+      <template>访问\\129.9.1.22\yhyb_log\0001\医务系统\简版系统\动态库更新（调试报错）；\\129.9.1.11\zjszyy\bf bqys mzy(接口报错)，找到相应的文件夹替代C盘里的文件夹</template>
+   </category>
+   <category>
+      <pattern>程序 * 打不开 *</pattern>
+      <template>访问\\129.9.1.22\yhyb_log\0001\医务系统\简版系统\动态库更新（调试报错）；\\129.9.1.11\zjszyy\bf bqys mzy(接口报错)，找到相应的文件夹替代C盘里的文件夹</template>
+   </category>
+   <category>
+      <pattern>* 程序 * 打不开 *</pattern>
+      <template>访问\\129.9.1.22\yhyb_log\0001\医务系统\简版系统\动态库更新（调试报错）；\\129.9.1.11\zjszyy\bf bqys mzy(接口报错)，找到相应的文件夹替代C盘里的文件夹</template>
+   </category>
+
+
+   <category>
+      <pattern>OA 信息</pattern>
+      <template>调一下屏幕的分辨率</template>
+   </category>
+   <category>
+      <pattern>* OA 信息</pattern>
+      <template>调一下屏幕的分辨率</template>
+   </category>
+   <category>
+      <pattern>OA * 信息</pattern>
+      <template>调一下屏幕的分辨率</template>
+   </category>
+   <category>
+      <pattern>* OA * 信息</pattern>
+      <template>调一下屏幕的分辨率</template>
+   </category>
+   <category>
+      <pattern>* OA 信息 *</pattern>
+      <template>调一下屏幕的分辨率</template>
+   </category>
+   <category>
+      <pattern>OA 信息 *</pattern>
+      <template>调一下屏幕的分辨率</template>
+   </category>
+   <category>
+      <pattern>OA * 信息 *</pattern>
+      <template>调一下屏幕的分辨率</template>
+   </category>
+   <category>
+      <pattern>* OA * 信息 *</pattern>
+      <template>调一下屏幕的分辨率</template>
+   </category>
+
+</aiml>
